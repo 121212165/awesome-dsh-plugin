@@ -2573,7 +2573,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-dns](https://github.com/173787247/dsh-wsl-dns) - Compares WSL versus Windows DNS resolution for common endpoints.
 - [173787247/dsh-wsl-docker](https://github.com/173787247/dsh-wsl-docker) - Reports Docker CLI, context, and daemon reachability in WSL, plus vLLM :8000 /v1/models health and GPU runtime hints.
 - [173787247/dsh-wsl-download](https://github.com/173787247/dsh-wsl-download) - Lists or copies files from the Windows Downloads folder into the WSL workspace.
-- [173787247/dsh-wsl-editor](https://github.com/173787247/dsh-wsl-editor) - Opens a WSL Linux path in Windows Cursor, VS Code, or Notepad.
+- [173787247/dsh-wsl-editor](https://github.com/173787247/dsh-wsl-editor) - Opens a WSL Linux path in Windows Cursor, VS Code, or Notepad (optional line/column; win_editor_status).
 - [173787247/dsh-wsl-encoding](https://github.com/173787247/dsh-wsl-encoding) - Reports PowerShell, cmd, and LANG encoding for UTF-8 versus code-page issues.
 - [173787247/dsh-wsl-env](https://github.com/173787247/dsh-wsl-env) - Injects WSL distro, Linux path mapping, /mnt/c CRLF and git caveats, and NODE_USE_ENV_PROXY into the system prompt.
 - [173787247/dsh-wsl-expose](https://github.com/173787247/dsh-wsl-expose) - Advises or applies allowlisted Windows portproxy for a WSL listen port, preferring the kit :3081 relay and launch token for local dsh UI.
@@ -2593,13 +2593,13 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-media](https://github.com/173787247/dsh-wsl-media) - Local media/doc pipeline: ffprobe, extract, thumbnail, PDF, ASR, pandoc, OCR, exif.
 - [173787247/dsh-wsl-mnt](https://github.com/173787247/dsh-wsl-mnt) - Warns when the workspace path sits on slow /mnt/c.
 - [173787247/dsh-wsl-net](https://github.com/173787247/dsh-wsl-net) - Adds a net_doctor tool that reports proxy environment, NODE_USE_ENV_PROXY, and reachability of the DeepSeek API and the npm registry, and sets NODE_USE_ENV_PROXY on bash and npm child processes.
-- [173787247/dsh-wsl-notify](https://github.com/173787247/dsh-wsl-notify) - Shows a Windows MessageBox when a long WSL task finishes.
+- [173787247/dsh-wsl-notify](https://github.com/173787247/dsh-wsl-notify) - Shows a short Windows MessageBox or toast (BalloonTip) from WSL when a long task finishes.
 - [173787247/dsh-wsl-obscura](https://github.com/173787247/dsh-wsl-obscura) - Optional Obscura headless-browser tools from WSL (obscura_status / obscura_fetch / obscura_mcp_hint). Not the same as dsh-wsl-browser win_open_url (Windows GUI browser), and not a replacement for dsh-wsl-fetch web_fetch.
 - [173787247/dsh-wsl-obsidian](https://github.com/173787247/dsh-wsl-obsidian) - Bridges a WSL dsh agent to a Windows Obsidian vault on NTFS: obsidian_status/list/search/read/write/append, plus obsidian:// open via the Windows app. Keep the vault under /mnt/<drive>/ so Obsidian can watch files; Linux-disk vaults via \\wsl$ are unreliable.
 - [173787247/dsh-wsl-ollama](https://github.com/173787247/dsh-wsl-ollama) - Local Ollama status / list / chat / embed for dsh on WSL.
 - [173787247/dsh-wsl-open](https://github.com/173787247/dsh-wsl-open) - Opens WSL Linux paths from DeepSeek Harness chat in the Windows default app or Explorer.
 - [173787247/dsh-wsl-path](https://github.com/173787247/dsh-wsl-path) - Converts Linux and Windows paths with /mnt/c caveats for WSL.
-- [173787247/dsh-wsl-picker](https://github.com/173787247/dsh-wsl-picker) - Browses WSL directories under / and /mnt for workspace picking.
+- [173787247/dsh-wsl-picker](https://github.com/173787247/dsh-wsl-picker) - Browse WSL directories under / and /mnt for workspace picking (start/filter; im-workspace shortcuts).
 - [173787247/dsh-wsl-pkg](https://github.com/173787247/dsh-wsl-pkg) - Dependency tree summaries: npm / pip / cargo.
 - [173787247/dsh-wsl-playwright](https://github.com/173787247/dsh-wsl-playwright) - Headless Playwright fetch (title + body text) in WSL.
 - [173787247/dsh-wsl-port](https://github.com/173787247/dsh-wsl-port) - Diagnoses WSL port listening and Windows localhost forwarding, with a 3080/3081 uiPlaybook for the dsh web relay and launch token.

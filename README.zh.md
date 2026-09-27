@@ -2573,7 +2573,7 @@ dsh plugin --profile web add dshmarket
 - [173787247/dsh-wsl-dns](https://github.com/173787247/dsh-wsl-dns) — 对比 WSL 与 Windows 对常用域名的 DNS 解析结果。
 - [173787247/dsh-wsl-docker](https://github.com/173787247/dsh-wsl-docker) — 报告 WSL 内 Docker CLI、context 与 daemon 是否可达，并探测 vLLM :8000 的 /v1/models 健康与 GPU runtime。
 - [173787247/dsh-wsl-download](https://github.com/173787247/dsh-wsl-download) — 列出或复制 Windows「下载」文件夹中的文件到 WSL 工作区。
-- [173787247/dsh-wsl-editor](https://github.com/173787247/dsh-wsl-editor) — 用 Windows 的 Cursor、VS Code 或 Notepad 打开 WSL 中的 Linux 路径。
+- [173787247/dsh-wsl-editor](https://github.com/173787247/dsh-wsl-editor) — 用 Windows 的 Cursor、VS Code 或 Notepad 打开 WSL 路径（可选行列；含 win_editor_status）。
 - [173787247/dsh-wsl-encoding](https://github.com/173787247/dsh-wsl-encoding) — 报告 PowerShell、cmd 与 LANG 编码，便于排查 UTF-8 与代码页问题。
 - [173787247/dsh-wsl-env](https://github.com/173787247/dsh-wsl-env) — 向 system prompt 注入 WSL 发行版、Linux 路径映射、/mnt/c 的 CRLF 与 git 注意点，以及 NODE_USE_ENV_PROXY。
 - [173787247/dsh-wsl-expose](https://github.com/173787247/dsh-wsl-expose) — 为 WSL 监听端口提供白名单 Windows portproxy 建议或应用；本机 dsh UI 优先用 kit 的 :3081 中继与 launch token。
@@ -2593,13 +2593,13 @@ dsh plugin --profile web add dshmarket
 - [173787247/dsh-wsl-media](https://github.com/173787247/dsh-wsl-media) — 本地媒体/文档管线：ffprobe、抽音轨、缩略图、PDF、ASR、pandoc、OCR、exif。
 - [173787247/dsh-wsl-mnt](https://github.com/173787247/dsh-wsl-mnt) — 当工作区路径落在缓慢的 /mnt/c 上时发出告警。
 - [173787247/dsh-wsl-net](https://github.com/173787247/dsh-wsl-net) — 提供 net_doctor 工具，报告代理环境、NODE_USE_ENV_PROXY，以及 DeepSeek API 与 npm registry 的连通性，并为 bash 和 npm 子进程设置 NODE_USE_ENV_PROXY。
-- [173787247/dsh-wsl-notify](https://github.com/173787247/dsh-wsl-notify) — 长任务结束后弹出 Windows 提示框。
+- [173787247/dsh-wsl-notify](https://github.com/173787247/dsh-wsl-notify) — 长任务结束后从 WSL 弹出 Windows MessageBox 或 toast（气球提示）。
 - [173787247/dsh-wsl-obscura](https://github.com/173787247/dsh-wsl-obscura) — 可选：在 WSL 中驱动 Obscura 无头浏览器（obscura_status / obscura_fetch / obscura_mcp_hint）。不同于 dsh-wsl-browser 的 win_open_url（打开 Windows 图形浏览器），也不替代 dsh-wsl-fetch 的 web_fetch。
 - [173787247/dsh-wsl-obsidian](https://github.com/173787247/dsh-wsl-obsidian) — 把 WSL 里的 dsh agent 接到 Windows NTFS 上的 Obsidian vault：提供 obsidian_status/list/search/read/write/append，并用 obsidian:// 打开 Windows 版 Obsidian。vault 请放在 /mnt/<盘符>/ 下以便监视文件变更；放在 Linux 盘经 \\wsl$ 打开不可靠。
 - [173787247/dsh-wsl-ollama](https://github.com/173787247/dsh-wsl-ollama) — 本机 Ollama：status / list / chat / embed。
 - [173787247/dsh-wsl-open](https://github.com/173787247/dsh-wsl-open) — 把 DeepSeek Harness 聊天里的 WSL Linux 路径在 Windows 默认程序或资源管理器中打开。
 - [173787247/dsh-wsl-path](https://github.com/173787247/dsh-wsl-path) — 在 WSL 下转换 Linux 与 Windows 路径，并说明 /mnt/c 注意点。
-- [173787247/dsh-wsl-picker](https://github.com/173787247/dsh-wsl-picker) — 浏览 / 与 /mnt 下的 WSL 目录，便于挑选工作区。
+- [173787247/dsh-wsl-picker](https://github.com/173787247/dsh-wsl-picker) — 浏览 WSL 的 / 与 /mnt 目录以便挑选工作区（start/filter；含 im-workspace 快捷入口）。
 - [173787247/dsh-wsl-pkg](https://github.com/173787247/dsh-wsl-pkg) — 依赖树摘要：npm / pip / cargo。
 - [173787247/dsh-wsl-playwright](https://github.com/173787247/dsh-wsl-playwright) — WSL 无头 Playwright 抓取标题与正文。
 - [173787247/dsh-wsl-port](https://github.com/173787247/dsh-wsl-port) — 诊断 WSL 端口监听与 Windows localhost 转发，并对 dsh web 中继的 3080/3081 给出含 launch token 的 uiPlaybook。
