@@ -2559,9 +2559,9 @@ dsh plugin --profile web add dshmarket
 
 ### 🐧 WSL 与 Windows 互操作
 
-- [173787247/dsh-device-bridge](https://github.com/173787247/dsh-device-bridge) — DeepSeek Harness 通用 Companion 桥：手机 / IoT / 旧世界薄 Agent。
-- [173787247/dsh-mac-companion](https://github.com/173787247/dsh-mac-companion) — DeepSeek Harness 对接 macOS Companion（通知 / Shortcuts / 剪贴板）。
-- [173787247/dsh-remote-ssh](https://github.com/173787247/dsh-remote-ssh) — 从 DeepSeek Harness 白名单 SSH 接入 Unix/AIX/macOS（不走 shell；默认只读）。
+- [173787247/dsh-device-bridge](https://github.com/173787247/dsh-device-bridge) — DeepSeek Harness 通用 Companion 桥：手机 / IoT / 旧世界薄 Agent（含 Termux 样例）。
+- [173787247/dsh-mac-companion](https://github.com/173787247/dsh-mac-companion) — DeepSeek Harness 对接 macOS Companion（通知 / Shortcuts / 剪贴板读写）。
+- [173787247/dsh-remote-ssh](https://github.com/173787247/dsh-remote-ssh) — 从 DeepSeek Harness 白名单 SSH 接入 Unix/AIX/macOS（不走 shell；默认只读），含 remote_ssh_probe 按系统探测套装。
 - [173787247/dsh-wsl-browser](https://github.com/173787247/dsh-wsl-browser) — 在 Windows 默认浏览器中打开来自 WSL 的 http(s) 链接。
 - [173787247/dsh-wsl-cal](https://github.com/173787247/dsh-wsl-cal) — 日历只读：khal list / today。
 - [173787247/dsh-wsl-clipboard](https://github.com/173787247/dsh-wsl-clipboard) — 从 WSL 读写 Windows 剪贴板。
@@ -2584,7 +2584,7 @@ dsh plugin --profile web add dshmarket
 - [173787247/dsh-wsl-gpu](https://github.com/173787247/dsh-wsl-gpu) — 探测 WSL 内的 nvidia-smi 与 GPU 可见性。
 - [173787247/dsh-wsl-helm](https://github.com/173787247/dsh-wsl-helm) — Helm 只读：list / status / history。
 - [173787247/dsh-wsl-hostsvc](https://github.com/173787247/dsh-wsl-hostsvc) — 从 WSL 探测 Windows 上的 Ollama、LM Studio、vLLM 与 llama-server，比对 ctx，并报告 /v1/models 的 apiReady 与 TCP 是否打通。
-- [173787247/dsh-wsl-im](https://github.com/173787247/dsh-wsl-im) — 通过出站长连接把飞书、企微智能机器人、钉钉 Stream、QQ 官方 Gateway 的会话桥进 dsh agent，并提供 im_status 工具。用户白名单默认为空，即**任何人**都能驱动你的 agent——对外暴露机器人前请先设置 allowedUserIds；IM 输入可在宿主机上执行工具。
+- [173787247/dsh-wsl-im](https://github.com/173787247/dsh-wsl-im) — 把飞书、企微、钉钉、QQ、Slack、Discord、Telegram、Mattermost 桥进 dsh agent（出站长连接/长轮询/Webhook），提供 im_status、可选本机 Whisper ASR、QQ/钉钉/TG/MM 纯文本出站，以及环境变量白名单（DSH_IM_*_ALLOWED_USER_IDS）。allowedUserIds 为空即任何人都能驱动 agent——对外暴露前请先设白名单。
 - [173787247/dsh-wsl-jev](https://github.com/173787247/dsh-wsl-jev) — 对接 TypeSafe Jev / OpenRouter System One：jev_ask / jev_check / jev_rank。
 - [173787247/dsh-wsl-k8s](https://github.com/173787247/dsh-wsl-k8s) — kubectl 只读：get / describe / logs。
 - [173787247/dsh-wsl-launch](https://github.com/173787247/dsh-wsl-launch) — 从 WSL 白名单启动 Windows 应用（如 VS Code、资源管理器、浏览器）。

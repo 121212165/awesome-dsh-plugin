@@ -2559,9 +2559,9 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 
 ### WSL & Windows Interop
 
-- [173787247/dsh-device-bridge](https://github.com/173787247/dsh-device-bridge) - Generic Companion-protocol bridge from DeepSeek Harness to phones/IoT/legacy agents.
-- [173787247/dsh-mac-companion](https://github.com/173787247/dsh-mac-companion) - DeepSeek Harness to macOS companion daemon (notify / Shortcuts / clipboard).
-- [173787247/dsh-remote-ssh](https://github.com/173787247/dsh-remote-ssh) - Allowlisted SSH into Unix/AIX/macOS from DeepSeek Harness (no shell; read-only by default).
+- [173787247/dsh-device-bridge](https://github.com/173787247/dsh-device-bridge) - Generic Companion-protocol bridge from DeepSeek Harness to phones/IoT/legacy agents (includes Termux companion example).
+- [173787247/dsh-mac-companion](https://github.com/173787247/dsh-mac-companion) - DeepSeek Harness to macOS companion daemon (notify / Shortcuts / clipboard read-write).
+- [173787247/dsh-remote-ssh](https://github.com/173787247/dsh-remote-ssh) - Allowlisted SSH into Unix/AIX/macOS from DeepSeek Harness (no shell; read-only by default), with remote_ssh_probe OS-aware suite.
 - [173787247/dsh-wsl-browser](https://github.com/173787247/dsh-wsl-browser) - Opens http(s) URLs from WSL in the Windows default browser.
 - [173787247/dsh-wsl-cal](https://github.com/173787247/dsh-wsl-cal) - Read-only khal calendar list.
 - [173787247/dsh-wsl-clipboard](https://github.com/173787247/dsh-wsl-clipboard) - Reads and writes the Windows clipboard from WSL.
@@ -2584,7 +2584,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-gpu](https://github.com/173787247/dsh-wsl-gpu) - Probes nvidia-smi and GPU visibility inside WSL.
 - [173787247/dsh-wsl-helm](https://github.com/173787247/dsh-wsl-helm) - Read-only Helm list / status / history.
 - [173787247/dsh-wsl-hostsvc](https://github.com/173787247/dsh-wsl-hostsvc) - Probes Windows-host Ollama, LM Studio, vLLM, and llama-server from WSL, compares ctx, and reports /v1/models apiReady versus TCP.
-- [173787247/dsh-wsl-im](https://github.com/173787247/dsh-wsl-im) - Bridges Feishu, WeCom aibot, DingTalk Stream and QQ Gateway chats into dsh agents over outbound long connections, with an im_status tool. Ships with an empty user allowlist, which means EVERYONE can drive your agent — set allowedUserIds before exposing a bot; IM input can run tools on the host.
+- [173787247/dsh-wsl-im](https://github.com/173787247/dsh-wsl-im) - Bridges Feishu, WeCom, DingTalk, QQ, Slack, Discord, Telegram and Mattermost into dsh agents (outbound WS/Stream/Gateway/long-poll/webhook), with im_status, optional local Whisper ASR, plain-text outbound for QQ/DingTalk/Telegram/Mattermost, and env CSV allowlists (DSH_IM_*_ALLOWED_USER_IDS). Empty allowedUserIds means EVERYONE can drive your agent — set a whitelist before exposing a bot.
 - [173787247/dsh-wsl-jev](https://github.com/173787247/dsh-wsl-jev) - Call TypeSafe Jev / OpenRouter System One for noul, choice, and score (jev_ask / jev_check / jev_rank).
 - [173787247/dsh-wsl-k8s](https://github.com/173787247/dsh-wsl-k8s) - Read-only kubectl get / describe / logs for dsh on WSL.
 - [173787247/dsh-wsl-launch](https://github.com/173787247/dsh-wsl-launch) - Launches allowlisted Windows apps such as VS Code, Explorer, and browsers from WSL.
