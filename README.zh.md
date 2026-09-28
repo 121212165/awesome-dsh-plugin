@@ -4433,6 +4433,7 @@ dsh plugin --profile web add dshmarket
 - [KongChengZhi/dsh-pixel-studio#dsh-cli-anything-aseprite](https://github.com/KongChengZhi/dsh-pixel-studio/tree/main/dsh-cli-anything-aseprite) — Aseprite 风格像素画工作室：AI 像人类一样分步绘制精灵，支持选区、图层、动画帧、渐变、对称、参考层与 rgb16 4096 色，每一步实时渲染为 ANSI 终端帧。
 - [lastplayer82/dsh-tanqi](https://github.com/lastplayer82/dsh-tanqi) — 为 dsh Web 界面生成冷知识与奇妙事实的插件（英文界面下名为 Curio）：「开始探奇」每次生成一批不重复主题（排除已见），每条可深入两层并展开类似知识点，「探奇清单」将全部历史（批次、条目、层级、类似点）保存在浏览器；优先复用宿主 LLM 通道，无需配置，无可用模型时可在面板填写 DeepSeek API Key；输出语言跟随 DSH 界面语言（中/英）。
 - [leeclouddragon/dsh-all-in](https://github.com/leeclouddragon/dsh-all-in) — 在 DSH Web UI 中加入本地六人桌德州扑克，支持完整下注轮次、边池结算、Token 筹码持久化与 Agent 状态显示。
+- [LeemanCheung/dsh-whale-companion](https://github.com/LeemanCheung/dsh-whale-companion) — 可拖拽的鲸鱼伙伴，提供本地成长、成就、皮肤和隐私安全的活动统计。
 - [lhh010/dsh-minigames](https://github.com/lhh010/dsh-minigames) — 右侧小游戏面板：18 款离线小游戏，等模型回复时的摸鱼神器。
 - [liang-today/dsh-liangxiang](https://github.com/liang-today/dsh-liangxiang) — 用 DSH 烧掉的 Token 凝成香火，花一炷给今日梁案投夯或拉；梁案每日更新，梁位决定今日梁子，日终收入梁祠。
 - [linconz/agentduel-dsh](https://github.com/linconz/agentduel-dsh) — AgentDuel 是一款代码对战游戏，通过这款插件，在 DSH 内部完成整个游戏过程，实现死斗角色与夺旗团队、提交 Agent 代码、发起战斗、观看回放，并通过 DSH 会话依据战果继续优化 Agent。
