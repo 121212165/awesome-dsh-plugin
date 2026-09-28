@@ -2972,6 +2972,7 @@ dsh plugin --profile web add dshmarket
 
 ### 🧩 技能包
 
+- [2333hutao/dsh-ls125-uv-probe](https://github.com/2333hutao/dsh-ls125-uv-probe) — 为林上 LS125 紫外辐照计与 UVALED-X3 探头提供技能：逆向出的 9600 8N1 链路（28 字节帧、CRC-16/MODBUS、轮询与清零命令）、抓取解码工具链，以及已验证的 STM32F103 主机固件，可在脱离原装表的情况下读取探头。全部代码与文档均由 AI agent（DeepSeek Harness）编写。
 - [452926826/dsh-at-skill](https://github.com/452926826/dsh-at-skill) — 通过 @名称 标记调用用户可用的 Skill，并在对话输入框中显示匹配的 Skill 候选项。
 - [7dgroup-ai/dsh-skill-7d-code-reviewer](https://github.com/7dgroup-ai/dsh-skill-7d-code-reviewer) — 模板驱动的代码审查技能：五步审查流程、严重/中等/轻微三级分级、四维评分（质量、安全、性能、可维护性），同时输出文本与 HTML 报告，内置按需加载的参考知识库。
 - [7starsseeker/dsh-fact-check](https://github.com/7starsseeker/dsh-fact-check) — 事实核查技能：不依赖模型记忆，去公开互联网核实——把论断拆成可独立验证的事实点，先按事实范畴（政策、学术、医疗、金融、灾害事故、食品安全、科学常识、教育考试、体育、娱乐名人、司法案件等）选定该范畴的一手来源阶梯，国内外信息生态并行搜索，抓取一手页面并按来源类型分级，再用质疑关键词反查一轮，最后结论先行地输出报告，每条论断都带完整 URL 与引用位置，「未证实」「无法裁定」与「已证实」分档呈现。三类事实判断在配置了密钥时可交给 TypeSafe Jev（System One）决策模型，未配置则回退到内置的确定性规则；模型的判断只能降档、不能升档。
