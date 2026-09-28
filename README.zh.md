@@ -575,7 +575,7 @@ dsh plugin --profile web add dshmarket
 - [plolpl789/dsh-raw-html](https://github.com/plolpl789/dsh-raw-html) — 让 DeepSeek Harness Web GUI 把 agent 输出的 HTML 渲染成真实界面，支持视觉卡片、KaTeX 公式、Mermaid 图表与内置开源字体，并向 agent 注入设计规范。
 - [Pudge1996/dsh-composer-stretch](https://github.com/Pudge1996/dsh-composer-stretch) — 输入框全屏扩展按钮——内容达 3 行以上时出现，点击扩展至全屏高度，发送后自动折叠，扩展模式下 Enter 换行。
 - [pure-craft/dsh-actions](https://github.com/pure-craft/dsh-actions) — 人与 Agent 共用的确定性项目任务：一份 actions.json，右侧栏运行面板与 Agent 工具双入口。
-- [pure-craft/dsh-capability-panel](https://github.com/pure-craft/dsh-capability-panel) — 看清 agent 此刻真正能触达哪些技能与工具——真实的在上下文状态(已加载/已截断/已挤出),并按会话开关。
+- [pure-craft/dsh-capability-panel](https://github.com/pure-craft/dsh-capability-panel) — 一站式管理 MCP 服务器、技能与工具——真实的在上下文状态(已加载/已截断/已挤出),并按会话开关。
 - [pyf2818/dsh-bili-widget](https://github.com/pyf2818/dsh-bili-widget) — DSH 里的 B站悬浮看片小窗：置顶窗口，含推荐/热门/排行/精选/关注/AI 频道与搜索，自动连播、迷你专注模式、历史持久化与最小化悬浮球。
 - [qcsjjjjj/dsh-hero-rightbar](https://github.com/qcsjjjjj/dsh-hero-rightbar) — 在没有对话的页面上补回右侧栏的展开入口，位置与外观对齐产品自带控件。
 - [qgx1992/dsh-ui-tools](https://github.com/qgx1992/dsh-ui-tools) — 一个插件装五个 Web UI 工具：供应商 + 模型双按钮选择器（含推理等级调节）、侧边栏工作区折叠/展开全部、会话「修改的文件」选项卡（需内核 0.1.2-alpha.1+，旧内核上静默缺席）、会话标题旁的工作区徽章，以及集中开关这些功能的设置页。
@@ -1095,6 +1095,7 @@ dsh plugin --profile web add dshmarket
 - [Angel2518975237/deepseek-harness-hello-kitty-suite](https://github.com/Angel2518975237/deepseek-harness-hello-kitty-suite) — DSH Web 的 Hello Kitty 风格任务完成与待回答提醒插件，附带可选的粉色明暗双主题 Skin Center v2 皮肤及本地安装脚本。
 - [ArimaKana-Akane/dsh-wallpaper-position](https://github.com/ArimaKana-Akane/dsh-wallpaper-position) — dsh-dream-skin 的壁纸位移插件：在设置里按像素微调当前壁纸的 X 与 Y 偏移，图片、URL、渐变三类壁纸各自记忆。
 - [ash-qw/dsh-theme-prts](https://github.com/ash-qw/dsh-theme-prts) — 面向 DSH Web 的非官方明日方舟 P.R.T.S. 风格界面主题，提供外观预设、辅助功能与会话导航。
+- [Au1314/dsh-style-hub](https://github.com/Au1314/dsh-style-hub) — DSH Web GUI 主题工坊：可切换预设风格、强调色与面板透明度微调、宿主壁纸首帧绘制；wallpaper-engine 玻璃色把浅色主题洗灰时一键改为白色玻璃。
 - [AvalonskyAfar/MahoutsukaiNoYoru-DSH-Skin#skin](https://github.com/AvalonskyAfar/MahoutsukaiNoYoru-DSH-Skin/tree/master/skin) — 《魔法使之夜》(Witch on the Holy Night) 风格的 DeepSeek Harness Web UI 整屏皮肤：原作式菜单、三角色与人格 skill、昼夜两套曲单、片尾演出。仓库自身不含素材——驱动它需要 380 个文件、263 MiB（立绘 136、UI 构件 208、背景 13、音频 23），须从你自己拥有的原著副本中还原，在此之前界面基本是空的。其中 23 个音频文件切掉 64 字节头就是合法 OGG；357 张图像是私有 .mzp/.cbg 格式，仓库附逐文件映射指南，给出两条路线，其中一条要你自备解码器。
 - [B-TQ/dsh-wallpaper](https://github.com/B-TQ/dsh-wallpaper) — 把本地视频/图片变成全屏动态壁纸，支持实时效果调节、壁纸切换与 Wallpaper Engine 工坊导入，设置自动保存永久生效。
 - [baisama-cloud/dsh-custom-brand](https://github.com/baisama-cloud/dsh-custom-brand) — Web UI 品牌区自定义：鲸鱼 logo 与 DeepSeek 文字可换成本地图片，HARNESS 徽章文字可双击编辑（双击修改，右键恢复）。
