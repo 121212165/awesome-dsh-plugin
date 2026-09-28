@@ -361,6 +361,7 @@ dsh plugin --profile web add dshmarket
 - [hyzyn/dsh-plugin-kit#docker](https://github.com/hyzyn/dsh-plugin-kit/tree/main/packages/docker) — DSH Web GUI 的 Docker 容器面板：本机或 SSH 主机上的容器列表（可选含已停止）、docker inspect 详情、日志、stats 快照、镜像列表与一次性 exec——默认只读（启停删与 exec 均需显式开启权限），可经 tty 插件在面板底部就地打开容器终端。
 - [hyzyn/dsh-plugin-kit#kit-settings](https://github.com/hyzyn/dsh-plugin-kit/tree/main/packages/kit-settings) — DSH Web GUI 中 kit 插件配置的宿主页：经官方 settings.section 扩展点在「设置」里注册一行与「通用设置」平级的「插件配置」页，并声明子 slot「settings.kit.item」，供 dsh-plugin-kit 各插件把自己的配置卡片渲染到该页。只装本包时该页显示「暂无可用配置项」，卡片随注册该 slot 的 kit 插件出现。
 - [hyzyn/dsh-plugin-kit#tty](https://github.com/hyzyn/dsh-plugin-kit/tree/main/packages/tty) — DSH Web GUI 的终端面板：侧边栏「终端」打开多标签页 xterm.js 全交互终端（node-pty 真实 PTY），支持 ssh2 原生 SSH 远程标签页（agent/key/password 三种认证），cwd 跟随当前会话，并提供 tty_list / tty_capture / tty_send 三个 agent 工具。
+- [Iambatman1928/dsh-lawagent-ui](https://github.com/Iambatman1928/dsh-lawagent-ui) — 法学学习实训工作台：三栏学术风界面，直读「明律」（lawagent preset）的学习档案（案件卷宗/背诵卡/错题本/笔记），并可一键把指令送进明律会话。
 - [Iambatman1928/dsh-lawkb-ui](https://github.com/Iambatman1928/dsh-lawkb-ui) — 法律知识库工作台：直读本地法规 .doc/.docx 语料，关键词/统计语义/向量三路融合检索、双维度筛选、案名索引与民事案由树、文书编辑器，以及引用核验/合同审查/AI 分析/AI 文书生成四件套。
 - [Iambatman1928/dsh-xingye](https://github.com/Iambatman1928/dsh-xingye) — 把 DSH 的一个会话变成聊天 agent：新建人物并写人设、为同一人物开多条档案线、本地保存的对话可撤销可回溯、剧情节点记进事件簿。
 - [Icather/dsh-clean-desktop-shell](https://github.com/Icather/dsh-clean-desktop-shell) — DSH 纯净桌面壳：双击桌面快捷方式即可像普通桌面软件一样启动；后端活性实时监测 + 托盘一键启停/重启（带进度弹窗）、离线自动重连、单实例。复用现有 web profile，不改动 web 界面。Windows + macOS 双平台。
