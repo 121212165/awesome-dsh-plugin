@@ -2597,7 +2597,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-launch](https://github.com/173787247/dsh-wsl-launch) - Launches allowlisted Windows apps such as VS Code, Explorer, and browsers from WSL.
 - [173787247/dsh-wsl-llamacpp](https://github.com/173787247/dsh-wsl-llamacpp) - OpenAI-compatible client for llama.cpp / Unsloth Desktop (default :8080).
 - [173787247/dsh-wsl-mail](https://github.com/173787247/dsh-wsl-mail) - Mail list/search via himalaya / notmuch (no send).
-- [173787247/dsh-wsl-media](https://github.com/173787247/dsh-wsl-media) - Local media/doc pipeline: ffprobe, extract, thumbnail, PDF, ASR, pandoc, OCR, exif.
+- [173787247/dsh-wsl-media](https://github.com/173787247/dsh-wsl-media) - Local media/doc pipeline: ffprobe, extract, thumbnail, PDF, ASR, pandoc, OCR, exif (allowRoots include IM inbox).
 - [173787247/dsh-wsl-mnt](https://github.com/173787247/dsh-wsl-mnt) - Warns when the workspace path sits on slow /mnt/c.
 - [173787247/dsh-wsl-net](https://github.com/173787247/dsh-wsl-net) - Adds a net_doctor tool that reports proxy environment, NODE_USE_ENV_PROXY, and reachability of the DeepSeek API and the npm registry, and sets NODE_USE_ENV_PROXY on bash and npm child processes.
 - [173787247/dsh-wsl-notify](https://github.com/173787247/dsh-wsl-notify) - Shows a short Windows MessageBox or toast (BalloonTip) from WSL when a long task finishes.
@@ -2611,7 +2611,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-playwright](https://github.com/173787247/dsh-wsl-playwright) - Headless Playwright fetch (title + body text) in WSL.
 - [173787247/dsh-wsl-port](https://github.com/173787247/dsh-wsl-port) - Diagnoses WSL port listening and Windows localhost forwarding, with a 3080/3081 uiPlaybook for the dsh web relay and launch token.
 - [173787247/dsh-wsl-rclone](https://github.com/173787247/dsh-wsl-rclone) - Read-only rclone listremotes / lsf / about.
-- [173787247/dsh-wsl-search](https://github.com/173787247/dsh-wsl-search) - Sandboxed ripgrep / fd / ast-grep under allowRoots.
+- [173787247/dsh-wsl-search](https://github.com/173787247/dsh-wsl-search) - Sandboxed ripgrep / fd / ast-grep under allowRoots (defaults include ~/.dsh/im-workspace).
 - [173787247/dsh-wsl-secret](https://github.com/173787247/dsh-wsl-secret) - Read-only pass / age secrets with allowPrefixes; reveal defaults to false.
 - [173787247/dsh-wsl-shot](https://github.com/173787247/dsh-wsl-shot) - Saves a Windows clipboard image into a WSL file.
 - [173787247/dsh-wsl-ssh-agent](https://github.com/173787247/dsh-wsl-ssh-agent) - Hints how to forward the Windows OpenSSH agent into WSL without dumping keys.
@@ -2620,7 +2620,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-terraform](https://github.com/173787247/dsh-wsl-terraform) - Terraform/OpenTofu plan summary + state list (never apply).
 - [173787247/dsh-wsl-tmux](https://github.com/173787247/dsh-wsl-tmux) - Read-only tmux list + capture-pane.
 - [173787247/dsh-wsl-tray](https://github.com/173787247/dsh-wsl-tray) - Writes a Windows shortcut and tray launcher to start dsh web in WSL, with Health/Restart and the :3081 launch-token URL.
-- [173787247/dsh-wsl-vecmem](https://github.com/173787247/dsh-wsl-vecmem) - Tiny local vector memory via Ollama embeddings and ~/.dsh/vecmem.
+- [173787247/dsh-wsl-vecmem](https://github.com/173787247/dsh-wsl-vecmem) - Tiny local vector memory via Ollama embeddings and ~/.dsh/vecmem (workspace namespaces; optional IM crumb via vecmemOnReply).
 - [173787247/dsh-wsl-vllm](https://github.com/173787247/dsh-wsl-vllm) - OpenAI-compatible vLLM client (default :8000).
 - [173787247/dsh-wsl-workspace](https://github.com/173787247/dsh-wsl-workspace) - Lists WSL distros and validates a Linux workspace path for DSH.
 - [173787247/dsh-wsl-wslconfig](https://github.com/173787247/dsh-wsl-wslconfig) - Gives read-only advice for Windows .wslconfig memory and mirrored networking.
@@ -3895,6 +3895,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [muyuanjin/dsh-ptc-plus](https://github.com/muyuanjin/dsh-ptc-plus) - Session-bound persistent TypeScript REPL for DSH PTC mode: bindings and imports stay live across run_code calls, edit_run_code replaces one line without resending the block, module import/export syntax is adapted via AST rewriting, and durable bindings are restored from the session journal after a cold restart.
 - [myd74108520/cadence-skill](https://github.com/myd74108520/cadence-skill) - Cadence SKILL (Virtuoso Lisp) assistant for EDA engineers: official-doc-anchored API lookup (3557 entries across 5 IC6.1.8 manuals, signature confidence levels, never invents APIs) plus zero-execution static analysis driven by a lexical depth coordinate system — iterator-safe deletion with position-sensitive copy() protection, printf placeholder/argument reconciliation, in-loop nth O(N^2) detection, deprecated APIs with page refs, dangerous-intent interception and CIW error-log triage. Host half has zero third-party dependencies.
 - [mzzsfy/dsh-plugin#dsh-maintain](https://github.com/mzzsfy/dsh-plugin/tree/main/packages/dsh-maintain) - Version and maintenance suite for DSH itself: detects new host releases from npm dist-tags, upgrades with one click, restarts safely, and the web page auto-recovers once the host is back.
+- [NamesMT/dsh-home-hosted](https://github.com/NamesMT/dsh-home-hosted) - Starts your dsh web server at boot through home-hosted: runs that panel from the pinned copy it ships, installs or removes the panel's boot entry (systemd, launchd, XDG autostart, Windows Run key or Task Scheduler), and manages the panel's servers, boot entry and UI from a dsh settings page and six agent tools.
 - [netori/galfree](https://github.com/netori/galfree) - Ren'Py galgame production workbench: a host-side project service (write gateway plus git snapshots, a dialogue/scene dialect parser, derived progress, human-only review stamps, pinned-SDK validation and playtest, local publish) behind one seam, driven by an embedded web panel and agent tools.
 - [nicecx/dsh-auto-approver](https://github.com/nicecx/dsh-auto-approver) - Auto-approval agent for DSH permission requests: rule layer (denyAlways/allowlist) plus Hermes Pro semantic adjudication with quick-fail retries, fail-closed to human when Hermes is unavailable, rejection feedback returned to the requesting session, and approve tasks enqueued into the task queue with a shared busy mutex.
 - [nicecx/dsh-design-review](https://github.com/nicecx/dsh-design-review) - Mandatory cross-review for design proposals and lessons-learned: auto-detects design doc writes and enqueues them (tier=review) into the task queue, delivers the external reviewer verdict back to the initiating session, and appends approved preventive measures to OPS-GUARDRAILS.md (append-only, conflict-checked).
