@@ -1485,6 +1485,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [wutian122/dsh-remote-shell](https://github.com/wutian122/dsh-remote-shell) - Bundles the remote-shell skill for secure SSH, SFTP, Telnet, and WinRM remote operations, with an encrypted credential vault whose login and execution scripts never accept plaintext passwords.
 - [xxww0098/dsh-plugin-oauth-subs](https://github.com/xxww0098/dsh-plugin-oauth-subs) - Connect ChatGPT Codex, xAI Grok, Zhipu GLM, AWS Kiro, Google Antigravity, and Cursor subscriptions to DeepSeek Harness through OAuth and a local proxy.
 - [YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge) - Adds a Settings card to edit prompt-inject.md, manage AGENTS.md or CLAUDE.md rule sets, check for plugin updates, and apply or restore reversible local package updates.
+- [YUNmengyuan/Herta-dsh](https://github.com/YUNmengyuan/Herta-dsh) - Installs Herta as a DeepSeek Harness agent: a preset carrying her persona and memory prompt sections, six memory and voice tools, a narrative layer that separates her thinking from what she says, 80 bundled voice clips, offline and MiniMax speech synthesis, and two conversation views that render the session with her own components.
 
 ### Sessions & Messages
 
