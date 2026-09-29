@@ -3922,7 +3922,7 @@ dsh plugin --profile web add dshmarket
 - [PerryLink/dsh-plugin-kit](https://github.com/PerryLink/dsh-plugin-kit) — 编写 DeepSeek Harness 插件的共享工具包，发布为 @perrylink/dsh-plugin-kit：可插拔的 Provider 注册表接缝、失败即拒绝的审批与会话事件门、共享的脱敏/计价/裁决模块，以及新插件骨架。
 - [PerryLink/dsh-score](https://github.com/PerryLink/dsh-score) — 为 DeepSeek Harness 插件提供多指标质量评分：基于真实的 CLI 证据对某个仓库或 npm 包在安装成功率、维护活跃度、文档完整度、安全扫描和协议合规五个维度打分，并生成 JSON 或 Markdown 排行榜报告。
 - [PerryLink/dsh-test-drive](https://github.com/PerryLink/dsh-test-drive) — 在一次性隔离配置中为 DSH 插件执行安装与冒烟测试，返回结构化的通过/失败记录与批量矩阵，不触碰真实配置。
-- [pgmi-builds/better-dsh#dashr](https://github.com/pgmi-builds/better-dsh/tree/main/dashr) — 能胜任严肃编程任务的 dsh。（Tools x Schemas）^REPL。`skill://`，`ctx://`，`agent://`，`dvc://`，`dsh://`，IPython REPL，Context as Variables，抗压缩可回溯、完整上下文重构。`hash-edit`、`dvc://browser`、subagent as function、workflow as function。
+- [pgmi-builds/better-dsh#better-dsh](https://github.com/pgmi-builds/better-dsh/tree/main/better-dsh) — 能胜任严肃编程任务的 dsh。（Tools x Schemas）^REPL。`skill://`，`ctx://`，`agent://`，`dvc://`，`dsh://`，IPython REPL，Context as Variables，抗压缩可回溯、完整上下文重构。`hash-edit`、`dvc://browser`、subagent as function、workflow as function。
 - [pzc2004/dsh-frostfin](https://github.com/pzc2004/dsh-frostfin) — 把 DSH 的 agent loop 换成 Kimi Code（ACP 直连）：审批、斜杠命令、本地与远程（ssh+tmux）会话接入。
 - [q862877400-ux/dsh-fuhuobi](https://github.com/q862877400-ux/dsh-fuhuobi) — 备份 DSH 环境，启动或安装失败时通过桌面"复活币"一键恢复：内置启动守卫做两阶段健康检查（HTTP 200 + 客户端渲染），标记正常启动、隔离或回滚异常启动，并轮换保留 3 份快照。跨平台。
 - [qimen039-code/dsh-consumer-audit](https://github.com/qimen039-code/dsh-consumer-audit) — 审计 DSH profile 里没有消费者的能力：清点已声明的组成行，统计每个已注册工具与 skill 在会话日志里真正被调用的次数，把「发起过调用」与「返回了结果」分开，报告没有观察到消费者的那些；并附一份固定「完成声明」证据链格式的 skill。

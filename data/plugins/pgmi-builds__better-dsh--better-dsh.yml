@@ -1,5 +1,5 @@
-url: https://github.com/pgmi-builds/better-dsh/tree/main/dashr
-name: pgmi-builds/better-dsh#dashr
+url: https://github.com/pgmi-builds/better-dsh/tree/main/better-dsh
+name: pgmi-builds/better-dsh#better-dsh
 category: dev
 description:
   en: 'Make your dsh ready for serious coding. (Tools x Schemas)^REPL. `skill://`, `ctx://`, `agent://`, `dvc://`, `dsh://`, IPython REPL, Context as Variables, cross compactions recallable, full context revive. `hash-edit`, `dvc://browser`, subagent as function, workflow as function.'
